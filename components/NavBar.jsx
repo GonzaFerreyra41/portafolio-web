@@ -10,7 +10,8 @@ const NavBar = () => {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
     const [navBg, setNavBg] = useState('#ecf8f3');
-    const [linkColor, setLinkColor] = useState('#1f2937')
+    const [linkColor, setLinkColor] = useState('#1f2937');
+    const [position, setPosition] = useState('fixed')
     const router = useRouter();
 
     useEffect(()=>{

@@ -3,7 +3,7 @@ import Head from 'next/head'
 import About from "../components/About"
 import Skills from "../components/Skills"
 import Projects from "../components/Projects"
-import Contact from "../components/Contact"
+// import Contact from "../components/Contact"
 
 export default function Home() {
   return (
@@ -17,8 +17,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
-      <Contact />
-      
+      {/* <Contact /> */}
     </div>
   )
 }

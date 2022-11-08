@@ -61,26 +61,48 @@ const Contact = () => {
                         <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
                             <div className="p-4">
 
-                            <form>
+                            <form 
+                                action="https://getform.io/f/7e590cae-6467-41be-a9bb-8a0f49eccf83" 
+                                method="POST"
+                                enctype="multipart/form-data"
+                                >
                                 <div className="grid md:grid-cols-1 gap-4 w-full py-2">
                                     <div className="flex flex-col"> 
                                         <label className="uppercase text-sm py-2">Tu Nombre</label>
-                                        <input className="border-2 p-2 rounded-lg flex border-gray-300  "type="text" />
+                                        <input className="border-2 p-2 rounded-lg flex border-gray-300 "
+                                        type="text"
+                                        name="name"
+                                        />
                                     </div>
                                 </div>
                                 <div className="flex flex-col py-2">
-                                    <label className="uppercase text-sm py-2">Email</label>
+                                    <label 
+                                        className="uppercase text-sm py-2"
+                                        type="email"
+                                        name="email"
+                                    >
+                                        Email
+                                    </label>
                                     <input className="border-2 p-2 rounded-lg flex border-gray-300 "  type="text" />
                                 </div>
                                 <div className="flex flex-col py-2">
                                     <label className="uppercase text-sm py-2">¿En qué estas interesad@?</label>
-                                    <input className="border-2 p-2 rounded-lg flex border-gray-300 "type="text" />
+                                    <input 
+                                        className="border-2 p-2 rounded-lg flex border-gray-300"
+                                        type="text"
+                                        name="subject"
+                                    />
                                 </div>
                                 <div className="flex flex-col py-2">
                                     <label className="uppercase text-sm py-2">¿En qué estas interesad@?</label>
                                     <textarea className="border-2 p-3 rounded-lg border-gray-300 " rows="5" type="text" />
                                 </div>
-                                <button className=" w-full p-3 text-gray-100 mt-4">Enviar</button>
+                                <button 
+                                className=" w-full p-3 text-gray-100 mt-4" 
+                                
+                                >
+                                    Enviar
+                                </button>
                             </form>
                             </div>
                         </div>
