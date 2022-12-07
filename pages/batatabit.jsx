@@ -31,8 +31,20 @@ const batatabit = () => {
                         <h2> Visión General </h2>
                         <p> Ahora bien, si usted quiere generar el tradicional texto de Lorem Ipsum para no distraer al lector con el contenido mientras que mira su diseño, escriba =Lorem() y luego presione Intro. Automáticamente Word creará cinco párrafos del texto de Lorem Ipsum, cada uno con tres oraciones.
                         </p>
-                        <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-                        <button className="px-8 py-2 mt-4 ">Code</button>
+                        <a 
+                            href="https://proyects-responsive-desing-maque.vercel.app/"
+                            target='_black'
+                            rel='noreferrer'
+                                >
+                            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+                        </a>
+                        <a
+                            href='https://github.com/GonzaFerreyra41/proyectsResponsiveDesingMaque'
+                            target='_black'
+                            rel="noreferrer"
+                            >
+                            <button className="px-8 py-2 mt-4 ">Code</button>
+                        </a>
                     </div>
 
                     <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">

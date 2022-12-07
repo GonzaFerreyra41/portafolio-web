@@ -17,7 +17,7 @@ const NavBar = () => {
     useEffect(()=>{
         if(
             router.asPath === '/batatabit' ||
-            router.asPath == '/property' ||
+            router.asPath == '/webphotography' ||
             router.asPath === 'crypto'
          ) {
             setNavBg('transparent');
@@ -48,17 +48,17 @@ const NavBar = () => {
             style={{backgroundColor: `${navBg}` }}
             className={
                 shadow
-                ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
-                : 'fixed w-full h-20 z-[100]'
+                ? 'fixed w-full h-[3.5rem] shadow-xl z-[100] ease-in-out duration-300'
+                : 'fixed w-full h-[3.5rem] z-[100]'
             }
         > 
-            <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+            <div className="flex justify-between items-center w-full h-full ml-4 px-2 2xl:px-16">
                 <Link href='/'>
-                    <h3>GonzaFerreyra</h3>
+                    <h3  style={{color: `${linkColor}` }} className="cursor-pointer text-[20px] "> Fg </h3>
                 </Link>
                 <div>
                     <ul style={{color: `${linkColor}` }} className="hidden md:flex">
-                        <li className="ml-10 text-sm uppercase hover:border-b scroll-smooth">
+                        <li className="ml-10 text-sm uppercase hover:border-b">
                             <Link href="/">Home</Link>
                         </li>
                         <li className="ml-10 text-sm uppercase hover:border-b scroll-smooth">

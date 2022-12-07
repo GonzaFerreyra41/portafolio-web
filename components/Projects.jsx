@@ -1,6 +1,9 @@
 import React from "react";
 import batataImg from "../public/assets/projects/Captura de pantalla (241).png"
+import webPhoto from '../public/assets/projects/web-photo.png'; 
 import ProjectItem from "./ProjectItem";
+import {HiOutlineChevronDoubleUp} from "react-icons/hi"
+import Link from "next/link";
 
 const Projects = () => {
     return (
@@ -17,7 +20,21 @@ const Projects = () => {
                         tech="HTML CSS"
                         projectUrl="/batatabit"
                     />
-                </div>                
+
+                    <ProjectItem 
+                        title="webPhotography"
+                        backgroundImg={webPhoto} 
+                        tech="JS Next"
+                        projectUrl="/webphotography"
+                    />
+                </div>  
+                <div className="flex justify-center py-12">
+                    <Link href="/">
+                        <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <HiOutlineChevronDoubleUp size={30} />
+                        </div>
+                    </Link>
+               </div>
             </div>
         </div>        
     );
