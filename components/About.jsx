@@ -9,19 +9,16 @@ return(
         <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
             <div className="col-span-2">
                 <p className="uppercase text-xl text-[#5651e5] tracking-widest p-4">Acerca de mi</p>
-                <h2 className="p-4 text-gray-800">Soy Gonzalo Ferreyra</h2>
-                <p className="p-4 text-gray-600">
+                <h2 className="p-4  text-[#000]">Soy Gonzalo Ferreyra</h2>
+                <p className="p-4  text-gray-600">
                     Una frase inspiradora...
                 </p>
-                <p className="p-4 text-gray-600"> 
-                    Me especializo en la creación de aplicaciones de interfaz de usuario front-end con capacidad de mobile responsive 
-                    que se conectan con API. Estoy
-                    apasionado por aprender nuevas tecnologías y entender que hay
-                    más de una forma de realizar una tarea. Aunque soy más hábil
-                    en la creación de aplicaciones front-end utilizando HTML, CSS, Javascript,
-                    React y Next tambien puedo adquirir conocimiento de nuevas tecnologías como sea
-                    necesario. Yo creo que ser un gran desarrollador es no usar un
-                    lenguaje específico, sino eligiendo la mejor herramienta para el trabajo.
+                <p className="p-4 text-[20px] text-[#000]"> 
+                    Me especializo en la creación de aplicaciones de interfaz de usuario front-end con capacidad de <span className="font-bold"> mobile responsive 
+                    que se conectan con API. </span> Aun siendo de nivel inicial, busco aprender nuevas tecnologías y <span className="font-bold"> entender que hay
+                    más de una forma de realizar una tarea, </span> por esto dedico todo mi tiempo a ser un gran talento en la disciplina. 
+                    Yo creo que ser un gran desarrollador es no usar un
+                    lenguaje específico, sino saber <span className="font-bold "> elegir la mejor herramienta para el trabajo. </span> 
                 </p>
                 {/* <p className="p-4 text-gray-600">
                     Empecé el desarrollo web en 2021 ¿como inicié en el mundo de la programacion? estudiando de manera autodidacta a traves de Platzi una plataforma de educacion. En mis tiempos libres ¿que hago?.
