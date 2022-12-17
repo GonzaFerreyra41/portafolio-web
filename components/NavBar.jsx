@@ -41,49 +41,52 @@ const NavBar = () => {
           }
         };
         window.addEventListener('scroll', handleShadow);
-      },[]);
+      }, []);
 
     return (
         <div
             style={{backgroundColor: `${navBg}` }}
             className={
                 shadow
-                ? 'fixed w-full h-[3.5rem] shadow-xl z-[100] ease-in-out duration-300'
-                : 'fixed w-full h-[3.5rem] z-[100]'
+                ? 'fixed w-full h-[3.5rem] shadow-xl z-[100] ease-in-out duration-300 text-[#5651e5]'
+                : 'fixed w-full h-[3.5rem] z-[100] text-[#5651e5]'
             }
         > 
             <div className="flex justify-between items-center w-full h-full ml-4 px-2 2xl:px-16">
                 <Link href='/'>
-                    <h3  style={{color: `${linkColor}` }} className="cursor-pointer text-[20px] "> Fg </h3>
+                    <h3 style={{color: `${linkColor}` }} className=" cursor-pointer text-[25px] "> Fg </h3>
                 </Link>
                 <div>
-                    <ul style={{color: `${linkColor}` }} className="hidden md:flex">
-                        <li className="ml-10 text-sm uppercase hover:border-b">
+                    <ul style={{color: `${linkColor}` }} className="hidden md:flex mr-8">
+                        <li className="ml-10 hover:border-b">
                             <Link href="/">Home</Link>
                         </li>
-                        <li className="ml-10 text-sm uppercase hover:border-b scroll-smooth">
+                        <li className="ml-10 hover:border-b">
                             <Link href="/#about">Acerca de mi</Link>
                         </li>
-                        <li className="ml-10 text-sm uppercase hover:border-b scroll-smooth">
+                        <li className="ml-10 hover:border-b">
                             <Link href="/#skills">Skills</Link>
                         </li>
-                        <li className="ml-10 text-sm uppercase hover:border-b">
+                        <li className="ml-10 hover:border-b">
                             <Link href="/#projects">Proyectos</Link>
                         </li>
                         {/* <li className="ml-10 text-sm uppercase hover:border-b">
                             <Link href="/#contact">Contacto</Link>
                         </li> */}
                     </ul>
-                    <div onClick={handleNav} className="md:hidden">
-                        <AiOutlineMenu size={25} />
+                    <div onClick={handleNav} className="md:hidden mr-4 ">
+                        <AiOutlineMenu size={30} />
                     </div>
                 </div>
             </div>
+            {/* Mobile Menu */}
+            {/* Overlay */}
             <div 
                 className={
                     nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
                 }
             >
+            {/* Side Drawer Menu */}
             <div 
                 className={
                     nav
@@ -91,7 +94,7 @@ const NavBar = () => {
                     : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
                 }
             >
-                <div > 
+                <div> 
                     <div  className="flex w-full items-center justify-between" >
                         <Link href='/'>
                             <Image 
@@ -124,9 +127,9 @@ const NavBar = () => {
                             <Link href="/#projects">
                                 <li onClick={()=>setNav(false)} className="py-4 text-sm">Proyectos</li>
                             </Link>
-                            <Link href="/#contact">
+                            {/* <Link href="/#contact">
                                 <li onClick={()=>setNav(false)} className="py-4 text-sm">Contacto!</li>
-                            </Link>
+                            </Link> */}
                         </ul>
                         <div className="pt-20"> 
                             <p className="uppercase tracking-widest text-[#5651e5]">

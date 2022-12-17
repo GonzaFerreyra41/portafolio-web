@@ -6,11 +6,10 @@ module.exports = {
   ],
   theme: 
   {
-      extend: {
-        // fontFamily:{  
-        //   CabinetGrotesk:'CabinetGrotesk-Black'
-        // }
-      },
-    plugins: [],
+    extend: {},
+    plugins: [
+      require('tailwind-scrollbar') ({ nocompatible: true }),
+  
+  ],
   }
 }

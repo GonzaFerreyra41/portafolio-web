@@ -9,16 +9,16 @@ const Main = () => {
     <div id='home'className="w-full h-screen p-2 py-4 text-center">
         <div className="max-w-[1240px] md:pt-20 w-full h-full mx-auto py-2 flex justify-center items-center ">
             <div>
-                {/* <p className="uppercase text-sm tracking-widest text-[18px] text-gray-600">
+                <p className="uppercase text-sm tracking-widest text-[18px] text-gray-500">
                     CONSTRUYAMOS ALGO JUNTOS
-                </p> */}
+                </p>
                 {/* <h1 className="py-2 text-[#000] text-[6.5rem]">
-                    Hola soy <span className="text-[#5651e5]">Gonzalo</span> 
+                   
                 </h1> */}
-                <h1 className="py-2 text-[#000]">
-                     Desarrollador Web Front-End Developer 
+                <h1 className=" text-[#000]">
+                Hola, soy <span className="text-[#5651e5]">Gonzalo</span>  Desarrollador Web Front-End Developer 
                 </h1>
-                <p className="py-4 text-[28px] text-gray-600 sm:max-w-[70%] m-auto">
+                <p className="py-4 md:text-[28px]   text-gray-500 sm:max-w-[70%] m-auto">
                 Experiencia en la creación de sitios web y aplicaciones web. Me especializo en JavaScript y tengo experiencia con React.
 
                 

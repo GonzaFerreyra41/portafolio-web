@@ -3,19 +3,17 @@
 @tailwind utilities;
 
 
-html {    
+html {
     scroll-behavior: smooth;
-    
-}
+ 
+    font-family: 'Satoshi', sans-serif;
+  }
 
 @layer base {
-    /* @font-face {
-        font-family: 'CabinetGrotesk-Black';
-        src: url(/public/fonts/CabinetGrotesk-Black.woff2) format('woff2');
-        font-weight: 400;
-        font-display: swap;
-        font-style: normal; 
-    } */
+    html {    
+    scroll-behavior: smooth;
+
+}
     body {
       @apply bg-[#F5F5F5] text-[#000000] tracking-wide
         
@@ -24,18 +22,16 @@ html {
       @apply font-bold 
   }
   h1 {
-      @apply text-8xl sm:text-5xl md:text-8xl
+    @apply text-4xl sm:text-5xl md:text-[85px] 
   }
   h2{
-      @apply text-5xl sm:text-3xl md:text-5xl
+    @apply text-3xl sm:text-4xl
   }
   li{
-      @apply cursor-pointer
+      @apply cursor-pointer text-[16px] font-semibold text-[#000]
   }
   button {
-      @apply shadow-xl shadow-gray-400 rounded-xl bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+      @apply shadow-xl shadow-gray-400 uppercase rounded-xl bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
   }
-  Link{
-    @apply scroll-smooth
-  }
+
 }
