@@ -1,36 +1,21 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import ContactImg from "../public/assets/contact.jpg"
-import {FaLinkedinIn, FaGithub} from "react-icons/fa"
-import {AiOutlineMail, } from "react-icons/ai"
-import {BsFillPersonLinesFill} from "react-icons/bs"
-import {HiOutlineChevronDoubleUp} from "react-icons/hi"
 
 const Contact = () => {
     return (
-        <div id='contact' className="w-full ">
+        <div id='contact' className="w-full p-10 ">
             <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
-                    <p className="text-xl tracking-widest uppercase text-[#5651e5]"> 
+                    {/* <p className="text-xl tracking-widest uppercase py-4 text-[#5651e5]"> 
                         Contacto
-                    </p>
-                    <h2 className="py-4">
-                        Get In Touch
+                    </p> */}
+                    <h2 className="pb-10">
+                        Estemos en contacto 
                     </h2>
-                    <div className="grid lg:grid-cols-5 gap-8">
+                    <div >
                         {/* left */}
-                        <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+                        {/* <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
                             <div className="lg:p-4 h-full">
                                 <div>
-                                 <Image  
-                                 className="rounded-xl hover:scale-105 ease-in duration-300"
-                                 src={ContactImg}
-                                 alt="/"
-                                 />
-                                </div>
-                                <div>
-                                    <h2 className="py-2"> Gonzalo Ferreyra</h2>
-                                    <p>Front-End Developer</p>
+                                    
                                     <p className="py-4">
                                         Estoy disponible para vacantes 
                                         independientes o de tiempo completo.
@@ -55,20 +40,19 @@ const Contact = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* right */}
-                        <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
-                            <div className="p-4">
-
+                        <div className=" w-[100%] h-auto shadow-xl shadow-gray-400 bg-[#FFF] rounded-xl lg:p-4">
+                            <div className="p-4 ">
                             <form 
                                 action="https://getform.io/f/7e590cae-6467-41be-a9bb-8a0f49eccf83" 
                                 method="POST"
                                 enctype="multipart/form-data"
                                 >
-                                <div className="grid md:grid-cols-1 gap-4 w-full py-2">
+                                <div>
                                     <div className="flex flex-col"> 
-                                        <label className="uppercase text-sm py-2">Tu Nombre</label>
+                                        <label className="font-semibold text-sm py-2">Tu Nombre</label>
                                         <input className="border-2 p-2 rounded-lg flex border-gray-300 "
                                         type="text"
                                         name="name"
@@ -77,7 +61,7 @@ const Contact = () => {
                                 </div>
                                 <div className="flex flex-col py-2">
                                     <label 
-                                        className="uppercase text-sm py-2"
+                                        className="font-semibold text-sm py-2"
                                         type="email"
                                         name="email"
                                     >
@@ -86,34 +70,27 @@ const Contact = () => {
                                     <input className="border-2 p-2 rounded-lg flex border-gray-300 "  type="text" />
                                 </div>
                                 <div className="flex flex-col py-2">
-                                    <label className="uppercase text-sm py-2">¿En qué estas interesad@?</label>
+                                    <label className="font-semibold text-sm py-2">¿En qué estas interesad@?</label>
                                     <input 
                                         className="border-2 p-2 rounded-lg flex border-gray-300"
                                         type="text"
                                         name="subject"
                                     />
                                 </div>
-                                <div className="flex flex-col py-2">
-                                    <label className="uppercase text-sm py-2">¿En qué estas interesad@?</label>
-                                    <textarea className="border-2 p-3 rounded-lg border-gray-300 " rows="5" type="text" />
-                                </div>
-                                <button 
-                                className=" w-full p-3 text-gray-100 mt-4" 
-                                
-                                >
+                                <button  className=" w-full p-3 text-gray-100 mt-4" >
                                     Enviar
                                 </button>
                             </form>
                             </div>
                         </div>
                     </div>
-                <div className="flex justify-center py-12">
+                {/* <div className="flex justify-center py-12">
                     <Link href="/">
                         <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                             <HiOutlineChevronDoubleUp size={30} />
                         </div>
                     </Link>
-               </div>
+               </div> */}
             </div>
         </div>
     );

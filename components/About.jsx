@@ -5,17 +5,18 @@ import Link from "next/link";
 
 const About =()=>{
 return(
-    <div id='about' className="w-full  p-2 py-4flex items-center">
+    <div id='about' className="w-full p-10 py-4 flex items-center">
         <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
             <div className="col-span-2">
                 <p className="uppercase text-xl text-[#5651e5] tracking-widest p-4">About</p>
-                <h2 className="p-4 text-[#000]">Soy Gonzalo Ferreyra</h2>
+                <h2 className="p-4 text-[#000]">Palabras que me defienen</h2>
                 {/* <p className="p-4  text-gray-600">
                     Una frase inspiradora...
                 </p> */}
                 <p className="p-4 text-[20px] text-[#000]"> 
-                    Me especializo en la creación de aplicaciones de interfaz de usuario front-end con capacidad de <span className="font-bold"> mobile responsive 
-                    que se conectan con API. </span> Aun siendo de nivel inicial, busco aprender nuevas tecnologías y <span className="font-bold"> entender que hay
+                    {/* Me especializo en la creación de aplicaciones de interfaz de usuario front-end con capacidad de <span className="font-bold"> mobile responsive 
+                    que se conectan con API. */}
+                    Aun siendo de nivel inicial, busco aprender nuevas tecnologías y <span className="font-bold"> entender que hay
                     más de una forma de realizar una tarea, </span> por esto dedico todo mi tiempo a ser un gran talento en la disciplina. 
                     Yo creo que ser un gran desarrollador es no usar un
                     lenguaje específico, sino saber <span className="font-bold "> elegir la mejor herramienta para el trabajo. </span> 

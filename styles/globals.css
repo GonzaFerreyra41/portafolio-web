@@ -2,10 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
 html {
     scroll-behavior: smooth;
- 
     font-family: 'Satoshi', sans-serif;
   }
 
@@ -18,11 +16,11 @@ html {
       @apply bg-[#F5F5F5] text-[#000000] tracking-wide
         
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4 {
       @apply font-bold 
   }
   h1 {
-    @apply text-4xl sm:text-5xl md:text-[85px] 
+    @apply text-4xl sm:text-5xl md:text-[72px] lg:text-[85px] 
   }
   h2{
     @apply text-3xl sm:text-4xl

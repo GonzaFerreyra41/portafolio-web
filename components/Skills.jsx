@@ -9,9 +9,10 @@ import TailwindCSS from "../public/img/tailwind.png"
 import Github from "../public/img/github1.png"
 
 const Skills = () => {
+
     return (
     <div  id='skills' className="w-full">
-        <div className="max-w-[1240px] mx-auto flex flex-col justify-center">
+        <div className="max-w-[1240px] mx-auto p-10 flex flex-col justify-center">
             <p className="p-4 text-xl text-[#5651e5] tracking-widest uppercase">
                 Mis Recursos
             </p>
@@ -19,7 +20,7 @@ const Skills = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                 
 
-            <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300">
                 <div className="grid grid-cols-2 gap-4 justify-center items-center"> 
                     <div className="m-auto">
                         <Image src={Html} 
@@ -120,7 +121,7 @@ const Skills = () => {
             </div> 
         </div>
     </div>        
-    );
-}
+ );
+};
 
 export default Skills;
