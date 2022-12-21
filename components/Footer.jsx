@@ -8,8 +8,10 @@ const Footer = () => {
   return (
     <div className='w-full bg-[#141414] m-auto px-10 py-20 h-full'>
         <div className="flex flex-col items-center tracking-widest justify-between text-center">
-            <h2 className='flex text-[#fff]'> Construyamos algo <span className='uppercase text-[#5651e5]'>juntos</span> </h2>
-            <p className="uppercase text-sm pt-4 tracking-widest text-[18px] text-gray-500">Front-End Developer</p>
+            <div>
+                <h2 className=' text-[#fff]'> Construyamos algo <span className='uppercase text-[#5651e5]'>juntos</span> </h2>
+                <p className="uppercase text-sm pt-4 tracking-widest text-[18px] text-gray-500">Front-End Developer</p>
+            </div>
            <div className='flex pt-4'>
                 <a className='pr-2'
                     href='https://www.linkedin.com/in/gonzalo-ferreyra-167993205/'
