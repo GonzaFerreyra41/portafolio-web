@@ -3,9 +3,9 @@ import React from "react"
 
 const Main = () => {
     return (
-    <div id='home' className="w-full h-[85vh] text-center">
-        <div className="max-w-[1240px] py-10 mx-auto flex justify-center items-center ">
-            <div>
+    <div id='home' className="w-full h-[85%] text-center">
+        <div className="max-w-[1240px] px-2 mx-auto flex justify-center items-center ">
+            <div className="pt-[9rem] pb-[7rem] ">
                 <p className="uppercase text-sm tracking-widest text-[18px] text-gray-500">
                     CONSTRUYAMOS ALGO JUNTOS
                 </p>
