@@ -51,6 +51,13 @@ const Footer = () => {
                     </div>
                 </a>
             </div> 
+             {/* <div className="flex justify-center py-12">
+                    <Link href="/">
+                        <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <HiOutlineChevronDoubleUp size={30} />
+                        </div>
+                    </Link>
+               </div> */}      
         </div>
     </div>
   )
