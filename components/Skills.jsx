@@ -12,7 +12,7 @@ const Skills = () => {
 
     return (
     <div  id='skills' className="w-full">
-        <div className="max-w-[1240px] mx-auto p-10 flex flex-col justify-center">
+        <div className="max-w-[1240px] mx-auto sm:p-10 flex flex-col justify-center">
             <p className="p-4 text-xl text-[#5651e5] tracking-widest uppercase">
                 Mis Recursos
             </p>

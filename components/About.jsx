@@ -1,11 +1,11 @@
 import React from "react"
 import Image from "next/image";
 import Link from "next/link";
-
+import ImgAbout from './../public/assets/about.jpg' 
 
 const About =()=>{
 return(
-    <div id='about' className="w-full p-10 py-4 flex items-center">
+    <div id='about' className="w-full sm:p-10 py-4 flex items-center">
         <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
             <div className="col-span-2">
                 <p className="uppercase text-xl text-[#5651e5] tracking-widest p-4">About</p>
@@ -35,7 +35,7 @@ return(
             </div>
             <div className="w-full  mx-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-110 ease-in duration-300 ">
                 <Image className="rounded-xl " 
-                src="/../public/assets/about.jpg"
+                src={ImgAbout}
                 alt="/"
                 width="300px"
                 height="450px"

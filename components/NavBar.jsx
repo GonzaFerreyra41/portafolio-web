@@ -51,7 +51,7 @@ const NavBar = () => {
                 : 'w-full h-[5.5rem] z-[100] text-[#5651e5]'
             }
         > 
-            <div className="flex justify-between items-center w-full h-full px-10 2xl:px-16">
+            <div className="flex justify-between items-center w-full h-full sm:px-10 2xl:px-16">
                 <Link href='/'>
                     <h3 style={{color: `${linkColor}` }} className=" cursor-pointer ml-10 text-[25px] "> Fg </h3>
                 </Link>
