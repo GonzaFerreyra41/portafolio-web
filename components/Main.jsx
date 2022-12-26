@@ -5,7 +5,7 @@ const Main = () => {
     return (
     <div id='home' className="w-full h-full sm:md:pb-[1.5rem] text-center">
         <div className="max-w-[1240px] px-2 mx-auto flex justify-center items-center ">
-            <div className="pt-[9rem] pb-[7rem] ">
+            <div className="pt-[9rem] pb-[9rem] ">
                 <p className="uppercase tracking-widest text-[18px] pb-2 text-gray-500">
                     CONSTRUYAMOS ALGO JUNTOS
                 </p>

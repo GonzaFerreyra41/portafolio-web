@@ -8,7 +8,7 @@ return(
         <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
             <div className="col-span-2">
                 <p className="uppercase text-xl text-[#5651e5] px-4 py-4">About</p>
-                <p className="p-4 text-[30px] text-[#000]"> 
+                <p className="p-4 text-[26px] text-[#000]"> 
                     Pasionado del desarrollo web, aun siendo de nivel inicial, busco aprender nuevas tecnologías y 
                     <span className="font-bold"> entender que hay más de una forma de realizar una tarea, </span>
                      por esto dedico todo mi tiempo a ser un gran talento en la disciplina. 

@@ -20,7 +20,7 @@ html {
       @apply font-bold 
   }
   h1 {
-    @apply text-[40px] leading-10 sm:text-5xl md:text-[72px] lg:text-[85px] 
+    @apply text-[41px] leading-10 sm:text-5xl md:text-[72px] lg:text-[85px] 
   }
   h2{
     @apply text-3xl sm:text-4xl
