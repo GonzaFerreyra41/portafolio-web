@@ -12,7 +12,7 @@ const Footer = () => {
                 <h2 className=' text-[#fff]'> Construyamos algo <span className='uppercase text-[#5651e5]'>juntos</span> </h2>
                 <p className="uppercase text-sm pt-4 tracking-widest text-[18px] text-gray-500">Front-End Developer</p>
             </div>
-           <div className='flex pt-4'>
+            <div className='flex pt-4'>
                 <a className='pr-2'
                     href='https://www.linkedin.com/in/gonzalo-ferreyra-167993205/'
                     target='_black'
@@ -40,16 +40,19 @@ const Footer = () => {
                         <AiOutlineMail size={30} /> 
                     </div>
                 </Link>
-                <a  className='pl-4'
-                    href="https://www.instagram.com/goon.ferreyra/?hl=es-la"
-                    target='_black'
-                    rel='noreferrer'
-                >
-                    <div className="rounded-full text-[#5651e5] p-6 
-                    cursor-pointer hover:scale-110 ease-in duration-300">
-                        <BsInstagram size={30}/>
-                    </div>
-                </a>
+
+                <div className='pl-8'>
+                    <a  
+                        className='rounded text-[#5651e5] p-6 cursor-pointer hover:scale-110 ease-in duration-300'
+                        href="https://www.instagram.com/goon.ferreyra/?hl=es-la"
+                        target='_black'
+                        rel='noreferrer'
+                    >
+                            <BsInstagram 
+                                size={30}
+                            />
+                    </a>
+                </div>
             </div> 
              {/* <div className="flex justify-center py-12">
                     <Link href="/">
