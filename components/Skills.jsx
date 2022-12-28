@@ -7,12 +7,16 @@ import NextJS from "../public/img/nextjs.png"
 import ReactJS from "../public/img/react.png"
 import TailwindCSS from "../public/img/tailwind.png"
 import Github from "../public/img/github1.png"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Skills = () => {
-
+    AOS.init();
+    
     return (
-    <div  id='skills' className="w-full">
-        <div className="max-w-[1240px] pb-10 sm:md:p-10 sm:md:mx-20 flex flex-col justify-center">
+    <div data-aos="fade-right" id='skills' className="w-full">
+        <div  className="max-w-[1240px] pb-10 sm:md:p-10 sm:md:mx-20 flex flex-col justify-center">
             <p className="p-4 text-xl text-[#5651e5] tracking-widest uppercase">
                 Mis Recursos
             </p>

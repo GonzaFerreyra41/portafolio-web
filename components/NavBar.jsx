@@ -53,24 +53,18 @@ const NavBar = () => {
         > 
             <div className=" flex justify-between items-center w-full h-full sm:md:px-10">
                 <Link href='/'>
-                    <h3 style={{color: `${linkColor}` }} className=" cursor-pointer ml-[1rem] sm:md:ml-10 text-[25px] "> Fg </h3>
+                    <h3 style={{color: `${linkColor}` }} className=" cursor-pointer ml-[1rem] sm:md:ml-10 text-[25px] hover:animate-spin "> Fg </h3>
                 </Link>
                 <div>
                     <ul style={{color: `${linkColor}` }} className="hidden md:flex mr-8">
-                        <li className="ml-10 pr-4">
-                            <Link href="/">Home</Link>
+                        <li className="ml-10 pr-4 hover:text-[#5651e5] ">
+                            <Link href="/#projects" scroll={false}>Proyectos</Link>
                         </li>
-                        <li className="ml-10 pr-4 ">
-                            <Link href="/#about">Acerca de mi</Link>
+                        <li className="ml-10 pr-4 hover:text-[#5651e5]">
+                            <Link href="/#about" scroll={false}>Acerca de mi</Link>
                         </li>
-                        <li className="ml-10 pr-4 ">
-                            <Link href="/#contact">
-                                <a
-                                className="transition px-4 text-[#fff] rounded-xl py-2 ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
-                                >
-                                Contactame 
-                                </a>
-                            </Link>
+                        <li className="ml-10 pr-4 hover:text-[#5651e5]">
+                            <Link href="/#contact" scroll={false}>Contacto</Link>
                         </li>
                     </ul>
                     <div onClick={handleNav} className="md:hidden mr-4 ">
@@ -111,19 +105,16 @@ const NavBar = () => {
                 </div>
                     <div className="py-4 flex flex-col ">
                         <ul className="uppercase">
-                            <Link href="/">
-                                <li onClick={()=>setNav(false)}  className="py-4 text-[1rem]">Home</li>
-                            </Link>
-                            <Link href="/#about">
+                            <Link href="/#about" scroll={false}>
                                 <li onClick={()=>setNav(false)} className="py-4 text-[1rem]">Acerca de mi</li>
                             </Link>
-                            <Link href="/#skills">
+                            <Link href="/#skills" scroll={false}>
                                 <li onClick={()=>setNav(false)} className="py-4 text-[1rem]">Skills</li>
                             </Link>
-                            <Link href="/#projects">
+                            <Link href="/#projects" scroll={false}>
                                 <li onClick={()=>setNav(false)} className="py-4 text-[1rem]">Proyectos</li>
                             </Link>
-                            <Link href="/#contact">
+                            <Link href="/#contact" scroll={false}>
                                 <li onClick={()=>setNav(false)} className="py-4 text-[1rem]">Contacto!</li>
                             </Link>
                         </ul>

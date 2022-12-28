@@ -1,12 +1,14 @@
 import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+
+    AOS.init();
+    
     return (
         <div id='contact' className="w-full sm:md:lg:p-10 ">
-            <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
-                    {/* <p className="text-xl tracking-widest uppercase py-4 text-[#5651e5]"> 
-                        Contacto
-                    </p> */}
+            <div data-aos="fade-up" className="max-w-[1240px] m-auto px-2 py-16 w-full">
                     <h2 className="pb-10">
                         Estemos en contacto 
                     </h2>

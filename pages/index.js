@@ -7,7 +7,9 @@ import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 
 
+
 export default function Home() {
+ 
   return (
     <div className='scrollbar scrollbar-thumb-rose-500' >
       <Head>
@@ -17,7 +19,7 @@ export default function Home() {
       </Head>
       <Main />
       <About />
-      <Skills />
+      <Skills  />
       <Projects />
       <Contact />
       <Footer />
